@@ -1,0 +1,62 @@
+{
+  "id": "integer",
+  "occupation": "string",
+  "place_of_birth": "string",
+  "marital_status": "string",
+  "next_of_kin_name": "string",
+  "next_of_kin_phone": "string",
+  "general_practitioner_name": "string",
+  "general_practitioner_phone": "string",
+  "indigenous": "string",
+  "armed_forces": "string",
+  "is_complete": "boolean",
+  "user": {
+    "date_of_birth": "string",
+    "gender": "string",
+    "id": "integer",
+    "postcode": "string",
+    "first_name": "string",
+    "city": "string",
+    "send_push_reminders": "boolean",
+    "affiliation": "string",
+    "last_name": "string",
+    "address": "string",
+    "send_sms_reminders": "boolean",
+    "phone": "string",
+    "timezone": "string",
+    "send_email_reminders": "boolean",
+    "date_joined": "string",
+    "state": "string"
+  },
+  "questionnaires": [
+    {
+      "id": "integer",
+      "data": {
+        "question-name": {
+          "question": "answer"
+        }
+      },
+      "submitted": "string"
+    }
+  ],
+  "consultations": [
+    {
+      "id": "integer",
+      "client": "integer",
+      "therapist": "integer",
+	    "therapist name": "string",
+	    "therapist specialties": "string",
+      "created": "string",
+      "date_time": "string",
+      "duration": "integer",
+      "notes": "string",
+      "therapist_rating": "integer",
+      "client_rating": "integer",
+      "client_quality_rating": "integer",
+      "therapist_feedback": "string",
+      "client_feedback": "string",
+      "therapist_paid": "string",
+      "status": "string"
+    }
+  ]
+}
