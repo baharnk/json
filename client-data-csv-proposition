@@ -39,24 +39,4 @@
       "submitted": "string"
     }
   ],
-  "consultations": [
-    {
-      "id": "integer",
-      "client": "integer",
-      "therapist": "integer",
-	    "therapist name": "string",
-	    "therapist specialties": "string",
-      "created": "string",
-      "date_time": "string",
-      "duration": "integer",
-      "notes": "string",
-      "therapist_rating": "integer",
-      "client_rating": "integer",
-      "client_quality_rating": "integer",
-      "therapist_feedback": "string",
-      "client_feedback": "string",
-      "therapist_paid": "string",
-      "status": "string"
-    }
-  ]
-}
+ }
