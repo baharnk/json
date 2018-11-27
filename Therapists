@@ -1,0 +1,12 @@
+{
+  "id": "integer",
+  "Clinical vs general psychologist": "string",
+  "Experience": "string",
+  "Specialties": "string",
+  "Practice": "string",
+  "Ahpra number": "string",
+  "Provider City": "string",
+  "State": "string",
+  "Provider Postcode": "string",
+  
+}
